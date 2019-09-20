@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Mona Brasseaux, Lafayette LA | Thank you for visiting!</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Official Website of Mona Brasseaux">
+    <meta name="keywords" content="Lafayette, Louisiana, LA, Knoxville, Maryville, Tennessee, musician, mortgage, loan, taxes, business, money, education, solar">
+    <meta name="author" content="Mona Brasseaux">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="...base photo location..." target="_blank"> -->
+    <style>
+    * {
+      box-sizing: border-box; /* SEVENTH 7th - ADJUST side-by-side*/
+    }
+  /*FIRST 1st - TYPOGRAHY */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* THIRD 3rd - Style the header */
+    header {
+      background-color: #666; /* SECOND(A) - COLOR */
+      padding: 20px; /* FOURTH 4th - PADDING*/
+      text-align: center;
+      font-size: 25px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      background: #ccc; /* SECOND(B) - COLOR */
+      padding: 20px;  /* FOURTH 4th - PADDING*/
+      width: 30%;  /* FIFTH 5th - WIDTH*/
+      /* ??only for demonstration, should be removed??(per tutorial) */
+      height: 300px; /* SIXTH 6th - MATCH HEIGHT for side-by-side sections */
+      float: left; /* SEVENTH 7th - ADJUST side-by-side*/
+    }
+
+    /* EIGHTH 8th - Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      background-color: #f1f1f1;  /* SECOND(C) - COLOR */
+      padding: 20px; /* FOURTH 4th - PADDING*/
+      width: 70%; /* FIFTH 5th - WIDTH*/
+      /* ??only for demonstration, should be removed??(per tutorial) */
+      height: 300px; /* SIXTH 6th - MATCH HEIGHT for side-by-side sections */
+      float: left; /* SEVENTH 7th - ADJUST side-by-side*/
+    }
+
+    /* TENTH 10th - Clear floats after the columns (NOT SURE WHAT THIS IS; it fixes footer) */
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* NINTH 9th - Complete: Style the footer */
+    footer {
+      background-color: #777; /* SECOND(D) - COLOR */
+      padding: 10px; /* FOURTH 4th - PADDING*/
+      text-align: center;
+      color: white;
+    }
+
+    /* ELEVENTH 11th - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%; /*What actually makes it responsive*/
+        height: auto; /* Tidy it up*/
+      }
+    }
+    </style>
+  </head>
+
+
+  <body>
+
+<!--<h2>CSS Layout Float</h2>
+    <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+    <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+-->
+    <header>
+      <img src = "2019-Photo.jpg" alt="Professional photo of Mona Brasseaux" width="100" style="">
+      <h1>Mona Brasseaux</h1>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li>Responsive Page Number 1</li>
+          <li><a href="#">Staying Grounded</a></li>
+          <li><a href="#">Shine Bright</a></li>
+          <li><a href="#">The Homefront</a></li>
+          <li><a href="#">It's ALL Relative</a></li>
+          <li><a href="#">How can I help you today?</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1>Responsive Page Number 1</h1>
+        <p>Welcome to my Github Repository, and to my Webpage Portfolio. This is Responsive Page Number 1</p>
+        <p>You will find it is simple, lightweight, and extremely customizable.</p>
+      </article>
+    </section>
+
+    <footer>
+      <small>&copy; 2019 Mona Brasseaux | <a href="mailto:mbrasseau@gmail.com">EMAIL ME</a></small>
+    </footer>
+
+  </body>
+
+</html>
